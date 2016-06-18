@@ -19,4 +19,5 @@ void shellSort(int a[], size_t n) {
 		}
     }
 }
+
 #endif // _SHELL_H
