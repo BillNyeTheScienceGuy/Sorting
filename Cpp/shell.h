@@ -1,6 +1,8 @@
 #ifndef _SHELL_H
 #define _SHELL_H
 
+// Performs insertion sorting algorithm with different comparison gaps
+// Moves elements closer to their general final position with each gap iteration
 void shellSort(int a[], size_t n) {
 	int gap[] = {701, 301, 132, 57, 23, 10, 4, 1};
     int j, t;
